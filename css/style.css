@@ -652,6 +652,10 @@ ol ol {
   padding-left: 0;
   list-style: none;
 }
+.services-list{
+  margin-left: 20px !important;
+  list-style: disc !important;
+}
 .list-inline {
   padding-left: 0;
   list-style: none;
