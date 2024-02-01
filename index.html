@@ -436,6 +436,7 @@
                   method="post"
                   name="contactform"
                   novalidate=""
+                  autocomplete="on"
                 >
                   <div id="success">
                     <p>Your message was sent successfully!</p>
@@ -451,7 +452,7 @@
                   <div class="inputs-col">
                     <div class="row">
                       <div class="col-md-6 input-wrapper">
-                        <label
+                        <label for="name"
                           >Full Name <span class="required">*</span>
                         </label>
                         <input
@@ -509,7 +510,9 @@
 
                     <div class="row">
                       <div class="col-md-6 input-wrapper">
-                        <label>Email <span class="required">*</span> </label>
+                        <label for="email"
+                          >Email <span class="required">*</span>
+                        </label>
                         <input
                           class="input--wd input--full"
                           name="email"
@@ -519,7 +522,7 @@
                       </div>
 
                       <div class="col-md-6 input-wrapper">
-                        <label>Phone </label>
+                        <label for="phone>Phone </label>
                         <input
                           class="input--wd input--full"
                           name="phone"
@@ -531,7 +534,7 @@
 
                     <div class="row">
                       <div class="col-md-12 input-wrapper">
-                        <label
+                        <label for="address"
                           >Physical Address (of Project)
                           <span class="required">*</span>
                         </label>
